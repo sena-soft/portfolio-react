@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
             Hola, mi nombre es <span className="purple">Juan Manuel Serrato </span>
-            soy de <span className="purple"> Michoacán, México.</span>
+            titulado como <span className="purple"> Ing. en TIC's</span>
             <br />
             Desarrollador Frontend desde el 2017,
             con experiencia en la creación de interfaces de usuario atractivas y funcionales. Experto en HTML, CSS y JavaScript, 
@@ -36,7 +36,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "El trabajo duro y la perseverancia siempre te encamina a cumplir cualquier objetivo!"{" "}
+            "El trabajo duro y la perseverancia siempre te encaminan a cumplir cualquier objetivo!"{" "}
           </p>
           <footer className="blockquote-footer">Juan</footer>
         </blockquote>
