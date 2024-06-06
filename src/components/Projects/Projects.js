@@ -42,6 +42,16 @@ function Projects() {
               demoLink="https://shortener-sage.vercel.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Planificador de gastos"
+              ghLink="https://github.com/sena-soft/expenses-planning"
+              description="Planificador de gastos creado con Vite, ReactJs y Typescript, es un planificador de gastos donde se define un presupuesto y se agregan gatos por categoría, los cuales se pueden filtrar y además se tiene una gráfica que representa el porcentaje gastado. Se usan tecnologías como COntext API, Use Reducer, TailwindCSS y las librerîas react-swipeable-list y react-circular-progressbar para su construcción."
+              demoLink="https://expenses-planning.vercel.app"              
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
