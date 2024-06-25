@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import easytask from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -60,6 +60,16 @@ function Projects() {
               title="Sitio Web"
               description="Sitio web donde se presentan servicios de abogacia, construido con HTML, CSS, Bootstrap y animaciones con la librería wow"
               demoLink="https://leyvaabogado.com"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={easytask}
+              isBlog={false}
+              title="Administrador de Tareas"
+              description="Administrador de tareas con Angular v18, utilizando las nuevos features que proporciona la versión 18, Typescript, Input, Output, @for, @if, services, Two way binding, Independency Injection, propiedades computadas"
+              ghLink="https://github.com/sena-soft/easytask"
+              demoLink="https://easytask-zeta.vercel.app"
             />
           </Col>
         </Row>
